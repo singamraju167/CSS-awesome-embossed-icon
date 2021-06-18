@@ -4,7 +4,8 @@ body {
     /* background: rgb(156, 187, 199); */
     display: flex;
     /* background: rgb(138, 138, 229); */
-    background: rgb(31, 30, 30);
+    /* background: rgb(31, 30, 30); */
+    background: rgb(128, 150, 252);
 }
 
 ul {
@@ -26,6 +27,6 @@ ul li {
     left: 150px;
     line-height: 170px;
     margin: 10px 70px;
-    color: rgb(255, 251, 5);
-    text-shadow: -1px -3px 6px rgb(255, 17, 0), 1px 2px 5px black;
+    color: rgb(128, 150, 252);
+    text-shadow: -1px -3px 6px rgb(64, 64, 66), 2px 4px 5px rgb(34, 33, 33);
 }
