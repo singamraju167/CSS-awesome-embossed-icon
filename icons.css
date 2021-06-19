@@ -1,19 +1,22 @@
 body {
     margin: 0;
     padding: 0;
-    /* background: rgb(156, 187, 199); */
     display: flex;
-    /* background: rgb(138, 138, 229); */
-    /* background: rgb(31, 30, 30); */
     background: rgb(128, 150, 252);
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
     position: relative;
-}
-
-ul li {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /* background: chartreuse; */
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 ul li {
@@ -21,12 +24,13 @@ ul li {
     height: 250px;
     width: 250px;
     background: none;
-    display: inline-block;
-    font-size: 250px;
-    top: 150px;
+    /* display: inline-block; */
+    font-size: 15vw;
+    /* top: 150px;
     left: 150px;
-    line-height: 170px;
-    margin: 10px 70px;
+    line-height: 170px; */
+    margin: 0 30px;
     color: rgb(128, 150, 252);
-    text-shadow: -1px -3px 6px rgb(64, 64, 66), 2px 4px 5px rgb(34, 33, 33);
+    text-shadow: -1px -3px 6px rgb(101, 101, 139), 2px 4px 5px rgb(34, 33, 33);
+    text-align: center;
 }
